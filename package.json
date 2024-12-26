@@ -3,9 +3,12 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./src/server.js"
   },
   "author": "cezar rull",
   "license": "ISC",
-  "description": ""
+  "description": "API desenvolvida para sites",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
 }
